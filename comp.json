@@ -1,0 +1,105 @@
+{
+ "id": 166661,
+ "competitionName": "squares-in-squares",
+ "title": "Squares in Squares",
+ "briefDescription": "Find the smallest enclosing square for N unit squares",
+ "dateEnabled": "2026-10-21T21:00:04.467Z",
+ "deadline": "2027-07-18T23:59:00Z",
+ "hasLeaderboard": true,
+ "leaderboardPercentage": 100,
+ "maxDailySubmissions": 10,
+ "numScoredSubmissions": 1,
+ "hasSolution": true,
+ "numPrizes": 5,
+ "forumId": 13224415,
+ "publicLeaderboardDisclaimerMessage": "",
+ "finalLeaderboardDisclaimerMessage": "",
+ "dateCreated": "2026-09-17T14:15:04.712937400Z",
+ "competitionHostSegmentId": 8,
+ "maxTeamSize": 5,
+ "teamMergerExplicitDeadline": "2027-07-11T23:59:00Z",
+ "prohibitNewEntrantsExplicitDeadline": "2027-07-11T23:59:00Z",
+ "kernelsPublishingDisabledDeadline": "2027-07-11T23:59:00Z",
+ "organizationId": 4,
+ "hasCoverImageUrl": true,
+ "hasScripts": true,
+ "totalTeams": 623,
+ "totalCompetitors": 635,
+ "totalSubmissions": 2830,
+ "rulesRequired": true,
+ "clonedFromCompetitionId": 153911,
+ "rowIdColumnName": "id",
+ "evaluationAlgorithm": {
+  "id": 7297,
+  "name": "Squares in Squares",
+  "environmentRenderType": "ENVIRONMENT_RENDER_TYPE_JSON",
+  "kernelId": 128385355,
+  "latestCompetitionMetricVersionId": 76596,
+  "state": "AVAILABLE",
+  "passCompleteSubmission": true
+ },
+ "categories": [
+  {
+   "id": 15002,
+   "name": "optimization",
+   "fullPath": "technique > optimization",
+   "datasetCount": 336,
+   "competitionCount": 35,
+   "scriptCount": 2086,
+   "slug": "optimization",
+   "displayName": "Optimization"
+  },
+  {
+   "id": 17174,
+   "name": "mathematics",
+   "fullPath": "subject > mathematics",
+   "description": "",
+   "datasetCount": 444,
+   "competitionCount": 16,
+   "scriptCount": 478,
+   "slug": "mathematics",
+   "displayName": "Mathematics"
+  },
+  {
+   "id": 17196,
+   "name": "math",
+   "fullPath": "task > evaluation > math",
+   "description": "",
+   "datasetCount": 94,
+   "competitionCount": 7,
+   "scriptCount": 211,
+   "slug": "math",
+   "displayName": "Math"
+  },
+  {
+   "name": "custom metric",
+   "description": "This competition's metric is defined under the 'Evaluation' tab",
+   "displayName": "Custom Metric"
+  }
+ ],
+ "organization": {
+  "slug": "kaggle",
+  "name": "Kaggle",
+  "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-organizations/4/thumbnail.png?t=2026-10-14-14-25-46",
+  "profileUrl": "/organizations/kaggle"
+ },
+ "launched": true,
+ "createdByUserId": 59561,
+ "license": {
+  "id": 1,
+  "name": "CC0: Public Domain",
+  "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "agreementRequired": false
+ },
+ "hostName": "Kaggle",
+ "scoreTruncationNumDecimals": 10,
+ "totalJoinedUsers": 2399,
+ "requiresIdentityVerification": true,
+ "submissionSizeLimitMb": 20480,
+ "reward": {
+  "id": "USD",
+  "quantity": 50000,
+  "clarification": "Prizes will be awarded at the 3-month, 6-month, and 9-month marks"
+ },
+ "fileBasedSubmissions": true
+}

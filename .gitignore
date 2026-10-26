@@ -1,0 +1,39 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# --- Competition data and downloaded sources ---
+# Re-download from Kaggle / the upstream repositories; too large, and the
+# packings themselves must not be redistributed from a public repo.
+data/
+assets/
+notebooks/
+boards/
+extracted/
+squares-in-squares.zip
+
+# --- Generated results and the live submission ---
+# The champion submission (22.3040271730) is deliberately NOT published here.
+submissions/
+runs/
+
+# --- Third-party upstream clone (936 MB: certs, checkers, bound verifier) ---
+external/couzo/
+
+# --- Kaggle upload payload ---
+# The dataset directory is assembled locally before `kaggle datasets version`:
+# copy submissions/best.csv and external/sqsearch/bin/sqsearch-seeded in.
+kaggle_upload/sis_engine/best.csv
+kaggle_upload/sis_engine/sqsearch
+kaggle_upload/**/*.log
+
+# --- Rust build output ---
+external/sqsearch/target/
+
+# --- OS / editor ---
+.DS_Store
+*.swp
+*~
